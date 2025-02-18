@@ -1,0 +1,141 @@
+ /* GENERAL
+     ========================================================================== */
+  
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+
+}
+
+
+ /* Element
+     ========================================================================== */
+
+     .wrapper{
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+
+
+     h1{
+        font-size: 9.6rem;
+        font-family: "Roboto", serif;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 50px;
+     }
+
+    h2{
+        font-family: "Lato", serif;
+        font-size: 4.8rem;
+        font-weight: 100;
+        text-align: right;
+        
+        margin-top: 0;
+        padding: 50px;
+        
+    }
+    .cercle{
+        border: solid 3px red;
+        border-radius: 100%;
+        font-size: 3rem;
+        width: 210px;
+        height: 210px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #D35400;
+        
+    }
+
+article{
+    display: flex;
+    gap: 50px;
+
+}
+
+.texte{
+    font-family: "Quicksand", serif;
+    font-size: 3.6rem;
+    display: flex;
+    align-items: center;
+}
+
+span{
+    font-weight: bold;
+}
+
+.fleche {
+
+
+}
+ /* Header
+     ========================================================================== */
+
+header{
+background-color: #34495E;
+height: 200px;
+
+     }
+
+
+/* Contenu
+ ========================================================================== */
+ .contenu .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+    gap: 22px;
+   
+    
+ }
+ .contenu a{
+
+    text-decoration: none;
+    color: black;
+    width: 1100px;
+ }
+
+ .contenu a:hover{
+    background-color: #BDC3C7;
+ }
+
+
+ /* Para
+ ========================================================================== */
+
+ .para .wrapper{
+    display: flex;
+    width: 1000px;
+    gap: 60px;
+    padding: 0;
+ }
+ .para p{
+    font-family: "Roboto", serif;
+    font-size: 2rem;
+    font-weight: 100;
+    width: 470px;
+ }
+
+  /* Footer
+ ========================================================================== */
+
+ footer{
+    display: flex;
+    background-color: #2980B9;
+ }
+ footer .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
